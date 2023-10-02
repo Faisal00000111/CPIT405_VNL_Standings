@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>VNL Schedule for the 2023 VNL Championship</h2>
+    <input
+      type="text"
+      id="searchBox"
+      onkeyup="filterByTeam()"
+      placeholder="Search for team"
+      title="Type in a team."
+    />
+    <div class="toggle-switch">
+      <label class="switch">
+        <input type="checkbox" class="toggle" onchange="filterByBroadcast()" />
+        <span class="slider round"></span>
+      </label>
+      <span class="toggle-label">With Championship</span>
+    </div>
+
+    <h3>Tuesday, May 30</h3>
+    <table class="vnlSchedule">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Teams</th>
+          <th>Team 1 Championships</th>
+          <th>Team 2 Championships</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>pool 2 16:10 JST</td>
+          <td>Germany @ Netherlands</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>pool 2 19:40 JST</td>
+          <td>Japan @ Dominican Republic</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>pool 1 17:00 JST</td>
+          <td>Italy @ Thailand</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>pool 1 20:15 JST</td>
+          <td>Poland @ Canada</td>
+          <td>2</td>
+          <td>1</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Wednesday, May 31</h3>
+    <table class="vnlSchedule">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Teams</th>
+          <th>Team 1 Championships</th>
+          <th>Team 2 Championships</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>pool 2 15:00 JST</td>
+          <td>Croatia @ Bulgaria</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>pool 2 18:00 JST</td>
+          <td>China @ Brazil</td>
+          <td>0</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>pool 1 17:00 JST</td>
+          <td>Italy @ Thailand</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>pool 1 20:00 JST</td>
+          <td>Serbia @ USA</td>
+          <td>0</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Thursday, June 1</h3>
+    <table class="vnlSchedule">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Teams</th>
+          <th>Team 1 Championships</th>
+          <th>Team 2 Championships</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>pool 2 12:00 JST</td>
+          <td>Croatia @ Germany</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>pool 2 15:00 JST</td>
+          <td>Bulgaria @ Dominican Republic</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>pool 1 18:00 JST</td>
+          <td>Brazil @ Netherlands</td>
+          <td>3</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>pool 1 22:00 JST</td>
+          <td>Canada @ Thailand</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
